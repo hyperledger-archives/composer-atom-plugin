@@ -1,6 +1,6 @@
 {
   "name": "composer-atom-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Composer language support in Atom",
   "engines": {
     "atom": "*"
