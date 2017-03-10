@@ -2,7 +2,7 @@
   "name": "composer-atom-plugin",
 
   "version": "0.5.0",
-  "description": "Adds syntax highlighting and snippets for Composer in Atom.",
+  "description": "Adds syntax highlighting and snippets for Composer in Atom",
   "engines": {
     "atom": "*"
   },
