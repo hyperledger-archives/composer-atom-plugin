@@ -1,7 +1,8 @@
 {
-  "name": "composer-atom-plugin",
-  "version": "0.0.3",
-  "description": "Composer language support in Atom",
+  "name": "composer-atom-plugin,
+
+  "version": "0.5.0",
+  "description": "Adds syntax highlighting and snippets for Composer in Atom",
   "engines": {
     "atom": "*"
   },
