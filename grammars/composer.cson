@@ -775,7 +775,7 @@
     'name': 'comment.block.html.js'
   }
   {
-    'match': '(?<!\\.)\\b(asset|transaction|participant|enum)(?!\\s*:)\\b'
+    'match': '(?<!\\.)\\b(asset|transaction|participant|enum|concept)(?!\\s*:)\\b'
     'name': 'storage.type.js'
   }
   {
