@@ -13,7 +13,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hyperledger/fabric-composer/issues"
+    "url": "https://github.com/hyperledger/composer/issues"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
