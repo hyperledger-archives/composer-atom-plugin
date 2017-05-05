@@ -1,19 +1,19 @@
 {
   "name": "composer-atom-plugin",
 
-  "version": "0.5.0",
-  "description": "Adds syntax highlighting and snippets for Composer in Atom",
+  "version": "0.7.0",
+  "description": "Adds syntax highlighting and snippets for Hyperledger Composer in Atom",
   "engines": {
     "atom": "*"
   },
-  "homepage": "https://github.com/fabric-composer/composer-atom-plugin",
+  "homepage": "https://github.com/hyperledger/composer-atom-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabric-composer/composer-atom-plugin.git"
+    "url": "https://github.com/hyperledger/composer-atom-plugin.git"
   },
-  "license": "IBM",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/fabric-composer/fabric-composer/issues"
+    "url": "https://github.com/hyperledger/composer/issues"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
