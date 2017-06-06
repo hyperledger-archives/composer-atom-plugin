@@ -1,7 +1,6 @@
 {
   "name": "composer-atom-plugin",
-
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Adds syntax highlighting and snippets for Hyperledger Composer in Atom",
   "engines": {
     "atom": "*"
