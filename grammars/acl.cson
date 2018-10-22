@@ -1,0 +1,37 @@
+'scopeName': 'source.acl'
+'name': 'Access Control List'
+'fileTypes': [ 'acl' ]
+'limitLineLength': false
+'patterns': [
+  {
+    'begin': '/\\*'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.begin.acl'
+    'end': '\\*/'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.end.acl'
+    'name': 'comment.block.acl'
+  }
+  {
+    'begin': '(rule)\\s(.+)\\s(\\{)'
+    'beginCaptures':
+      '1':
+        'name': 'storage.type.function.acl'
+      '2':
+        'name': 'support.variable.acl'
+      '3':
+        'name': 'meta.brace.curly.acl'
+    'end': '\\}'
+    'endCaptures':
+      '0':
+        'name': 'meta.brace.curly.acl'
+    'name': 'meta.section.acl'
+    'patterns': [
+      {
+        'include': 'source.yaml'
+      }
+    ]
+  }
+]
